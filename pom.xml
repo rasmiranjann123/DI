@@ -8,6 +8,22 @@
     <artifactId>CoreDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- Source: https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.2.19</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>in.strike</groupId>
+            <artifactId>CoreDemo3</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
